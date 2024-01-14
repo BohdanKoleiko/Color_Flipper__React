@@ -1,0 +1,21 @@
+.button {
+   display: block;
+   margin: 0 auto;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 1.2;
+   outline: none;
+   padding: 10px 20px;
+   text-transform: capitalize;
+   border: unset;
+   border-radius: 6px;
+   cursor: pointer;
+   transform: translate(-2px, -2px);
+   box-shadow: 2px 4px 10px black;
+   transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+
+.button:active {
+   transform: translate(0px, 0px);
+   box-shadow: none;
+}
