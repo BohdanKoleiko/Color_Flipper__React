@@ -1,0 +1,67 @@
+.header {
+   position: relative;
+   z-index: 1;
+   background-color: white;
+   box-shadow: 0 0 15px gray;
+}
+
+.headerWrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   height: 3rem;
+   max-width: 600px;
+
+   margin: 0 auto;
+}
+
+.headerWrapper h1 {
+   color: #2b8a7e;
+   line-height: 1.2;
+   font-size: 28px;
+}
+
+.colorTypes {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   font-size: 18px;
+}
+
+.colorTypes li {
+   text-transform: capitalize;
+}
+
+.colorTypesSimple,
+.colorTypesHex {
+   position: relative;
+   cursor: pointer;
+   transition: color 0.3s ease;
+   font-weight: 500;
+   padding: 4px 10px;
+}
+
+.colorTypesSimple::before,
+.colorTypesHex::before {
+   content: "";
+   position: absolute;
+   bottom: 2px;
+   left: 50%;
+   transform: translateX(-50%);
+   height: 2px;
+   width: 0;
+   background-color: #2b8a7e;
+   transition: width 0.3s ease;
+}
+
+.colorTypesSimple:hover::before,
+.colorTypesHex:hover::before {
+   color: #2b8a7e;
+   width: 90%;
+}
+
+.colorTypesSimple.active,
+.colorTypesHex.active {
+   color: #2b8a7e;
+}
