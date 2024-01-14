@@ -1,7 +1,10 @@
 # Color Flipper on React
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXMzODAxNzFzd2N6eDU2OG8wbHdlMnJ1cXBmaG5hd21mNGpqMWYwciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UJx1rkr5cwnwkPt89Q/giphy.gif" alt="">
 
-This is the same project as the first version but it`s created with React
+This is the same project as the first version but it`s created with React.
+For creating this project I used the following Hooks:
+- useEffect()
+- useState()
 
 <hr>
 
