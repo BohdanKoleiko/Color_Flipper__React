@@ -1,0 +1,39 @@
+.main {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr;
+   justify-items: center;
+   align-items: center;
+   height: calc(100vh - 3rem);
+   background-color: aliceblue;
+   transition: background-color 0.5s ease;
+}
+
+.errorMesage {
+   text-align: center;
+   
+   margin-top: 40px;
+}
+
+.text {
+   padding: 10px 20px;
+
+   font-size: 28px;
+   font-weight: 600;
+   line-height: 1.2;
+
+   border-radius: 8px;
+
+   text-transform: capitalize;
+}
+
+.text:not(:last-child) {
+   margin-bottom: 40px;
+}
+
+.text span {
+   font-weight: 500;
+   color: rgb(158, 158, 255);
+
+   text-transform: initial;
+}
