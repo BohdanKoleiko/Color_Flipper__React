@@ -1,6 +1,5 @@
 # Color Flipper on React
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXMzODAxNzFzd2N6eDU2OG8wbHdlMnJ1cXBmaG5hd21mNGpqMWYwciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UJx1rkr5cwnwkPt89Q/giphy.gif
-" alt="">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXMzODAxNzFzd2N6eDU2OG8wbHdlMnJ1cXBmaG5hd21mNGpqMWYwciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UJx1rkr5cwnwkPt89Q/giphy.gif" alt="">
 
 <hr>
 
